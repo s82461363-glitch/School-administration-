@@ -35,7 +35,7 @@
         <h2>تسجيل دخول الإدارة</h2>
         <div class="form-group">
             <label>كلمة المرور السرية:</label>
-            <input type="password" id="admin-pass" placeholder="أدخل كلمة المرور (admin123)">
+            <input type="password" id="admin-pass" placeholder="أدخل كلمة المرور ">
         </div>
         <button onclick="loginAdmin()">دخول للوحة التحكم</button>
     </div>
@@ -180,7 +180,7 @@
 
         window.loginAdmin = function() {
             const pass = document.getElementById('admin-pass').value;
-            if(pass === "admin123") {
+            if(pass === "admin718293") {
                 document.getElementById('login-box').style.display = 'none';
                 document.getElementById('admin-panel').style.display = 'block';
                 updateAdminClassOptions();
